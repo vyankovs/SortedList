@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  background-color: #d9e9ba;
+  display: flex;
+  flex-direction: column;
+  color: rgb(29, 46, 9);
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+li {
+  list-style: none;
+  margin: 15px;
+  font-size: 20px;
+}
+
+button {
+  background-color: #1c240c;
+  border-radius: 5px;
+  font-family: "Lato", sans-serif;
+  font-weight: bolder;
+  color: #fff;
+  width: auto;
+  font-size: 15px;
+  height: auto;
+  margin-top: 20px;
+  padding: 15px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  margin-bottom: 20px;
+}
+input {
+  width: 15%;
+  padding: 10px 15px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
